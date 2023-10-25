@@ -188,9 +188,10 @@ header {
 	max-width: 1366px;
 	margin: 15px auto;
 	padding: 5px 60px;
+
+	gap: 8px;
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
 }
 
 .header-title {
@@ -199,7 +200,13 @@ header {
 
 .poster {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	gap: 35px;
+}
+
+.poster a {
+	border: #ffffffda 1px solid;
 }
 
 .poster img {
@@ -223,8 +230,10 @@ header {
 .anime-list {
 	display: flex;
 	flex-direction: column;
-	max-width: 1366px;
-	margin: 15px auto;
+	justify-content: center;
+	align-items: center;
+	max-width: 1315px;
+	margin: 30px auto;
 	padding: 5px 60px;
 	background-color: #141111;
 }
@@ -237,6 +246,7 @@ header {
 
 .anime-card {
 	display: flex;
+
 	gap: 25px;
 	padding: 10px 10px 10px 0px;
 }
@@ -247,13 +257,18 @@ header {
 }
 
 .anime-card h1 {
+	display: flex;
+
 	font-size: 35px;
 	color: aliceblue;
+	width: 181px;
 }
 
 .anime-card h1:hover {
+	width: 175px;
+	border-bottom: solid 1px red;
 	font-size: 35px;
-	color: rgb(172, 205, 239);
+	color: rgb(123, 187, 251);
 }
 
 .anime-card p {
