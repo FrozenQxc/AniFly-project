@@ -1,4 +1,4 @@
-/* Reset and base styles  */
+header-title/* Reset and base styles  */
 * {
 	padding: 0px;
 	margin: 0px;
@@ -70,7 +70,7 @@ input::-ms-clear {
 }
 
 button,
-input[type='submit'] {
+header-title input[type='submit'] {
 	display: inline-block;
 	box-shadow: none;
 	background-color: transparent;
@@ -195,7 +195,8 @@ header {
 }
 
 .header-title {
-	font-size: 35px;
+	font-size: 40px;
+	margin-bottom: 11px;
 }
 
 .poster {
